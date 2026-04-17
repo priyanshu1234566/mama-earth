@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Beauty Blog</title>
+
+<link rel="stylesheet" href="./css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Beauty Care Blog</h1>
+<p>Tips for Healthy & Beautiful Skin</p>
+
+<button id="darkToggle">
+<i class="fa-solid fa-moon"></i>
+</button>
+
+</header>
+
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="post1.html">Organic Skincare</a>
+<a href="post2.html">Lip Care</a>
+<a href="post3.html">Face Mask</a>
+
+</nav>
+
+
+<!-- SEARCH BAR -->
+
+<div class="search-box">
+
+<input type="text" id="searchInput" placeholder="Search blog...">
+
+</div>
+
+
+<!-- FILTER BUTTONS -->
+
+<div class="filters">
+
+<button onclick="filterPosts('all')">All</button>
+<button onclick="filterPosts('skincare')">Skincare</button>
+<button onclick="filterPosts('lips')">Lips</button>
+<button onclick="filterPosts('mask')">Face Mask</button>
+
+</div>
+
+
+<section class="container">
+
+<div class="post skincare">
+
+<img src="./image/1.jpeg">
+
+<h2>Organic Skincare Products</h2>
+
+<p>Organic skincare products are made with natural ingredients.</p>
+
+<a href="post1.html">Read More</a>
+
+</div>
+
+
+<div class="post lips">
+
+<img src="image/20.webp">
+
+<h2>Best Lip Care Tips</h2>
+
+<p>Lips are very sensitive and need proper care.</p>
+
+<a href="post2.html">Read More</a>
+
+</div>
+
+
+<div class="post mask">
+
+<img src="image/21.jpg">
+
+<h2>Natural Face Masks</h2>
+
+<p>Natural face masks improve glowing skin.</p>
+
+<a href="post3.html">Read More</a>
+
+</div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+
+
+<footer>        
+  <div class="footer-bottom">
+<p>© 2026 Beauty Blog | Designed by Priyanshu Kumar</p>
+</div>  
+</footer>
+</body>
+</html>
